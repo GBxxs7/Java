@@ -1,0 +1,146 @@
+body {
+    height: 90vh;
+}
+
+body div {
+    background-color: #c6c6c6;
+    border-radius: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body div h2 {
+    padding-bottom: 15px;
+    display: block;
+}
+
+.top_column {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 8vh;
+}
+
+.mid_column {
+    display: block;
+    text-align: center;
+    height: 75vh;
+
+}
+.addProduct_form {
+    padding-top: 20vh;
+    margin: 0 auto;
+    width: 50vh;
+}
+
+.form_item {
+    margin: 20px;
+}
+
+.bottom_column {
+    height: 8vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mid_table {
+    margin: auto;
+    padding-top: 130px;
+    font-size: 23px;
+}
+
+input {
+    height: 25px;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.input_button {
+    margin-top: 10px;
+    width: 208px;
+    height: 30px;
+}
+
+.td_title {
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.p_alert {
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    color: crimson;
+    display: none;
+}
+
+p {
+    margin: 0;
+    /* font-size: 25px; */
+}
+
+.top_table {
+    justify-content: space-between;
+    border-collapse: collapse;
+    width: 50vh;
+    border-spacing: 0;
+
+}
+
+.top_table tr td {
+    text-align: center;
+}
+
+.top_table h2 {
+    margin-top: 18px;
+}
+
+.bottom_column h2 {
+    padding-top: 19px;
+}
+
+.edit-icon {
+    cursor: pointer;
+}
+
+.editable-row {
+    display: flex;
+    align-items: center;
+}
+
+.editable-row-span {
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.menu-item {
+    height: 32px;
+    line-height: 32px;
+    padding-left: 12px;
+}
+
+.menu-item:hover {
+    color: #fff;
+    background: #409eff;
+    cursor: pointer;
+}
+
+.search_div {
+    /*margin: 0;*/
+    margin-bottom: -20px;
+    margin-left: 0;
+    padding-top: 25px;
+    width: 75vh;
+    display: flex;
+}
+.search_input {
+    margin-right: 10px;
+}
+.search_button {
+    /*width: 10vh;*/
+}
+

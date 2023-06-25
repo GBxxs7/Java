@@ -1,0 +1,49 @@
+
+body {
+    height: 90vh;
+}
+
+body div {
+    background-color: #c6c6c6;
+    border-radius: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body div h2 {
+    padding-bottom: 15px;
+    display: block;
+    padding-top: 19px;
+}
+
+.top_column {
+    height: 8vh;
+    display: block;
+}
+
+.mid_column {
+    text-align: left;
+    height: 75vh;
+}
+
+.bottom_column {
+    height: 8vh;
+}
+
+li {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+ol {
+    margin-left: 100px;
+}

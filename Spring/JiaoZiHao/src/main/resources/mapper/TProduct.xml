@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="jiao.zi.hao.jiaozihao.mapper.TProductMapper">
+    <insert id="productAdd">
+        insert into t_product (name,price,quantity,descriptions)
+        values(#{name},#{price},#{quantity},#{descriptions})
+    </insert>
+    <update id="productChange">
+        update t_product set name = #{name},price = #{price},quantity = #{quantity},descriptions =
+        #{descriptions}, status = #{status} where product_id = #{product_id}
+    </update>
+    <delete id="productDeleteById">
+        delete from t_product where product_id = #{product_id}
+    </delete>
+
+    <select id="productInquire" resultType="jiao.zi.hao.jiaozihao.entity.TProduct">
+        select * from t_product
+    </select>
+    <select id="productCheck" resultType="jiao.zi.hao.jiaozihao.entity.TProduct">
+        select * from t_product where name = #{name}
+    </select>
+    <select id="searchByName" resultType="jiao.zi.hao.jiaozihao.entity.TProduct">
+        select * from t_product where name like concat('%',#{ name },'%')
+    </select>
+</mapper>
